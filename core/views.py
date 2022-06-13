@@ -7,4 +7,5 @@ import time
 class IndexView(APIView):
     def get(self, request):
         time.sleep(1)
+        print("asdf")
         return Response("pong")
